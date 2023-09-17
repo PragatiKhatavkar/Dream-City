@@ -28,7 +28,7 @@
             <img src="https://cdn.create.vista.com/api/media/medium/75925837/stock-photo-rural-landscape-with-wheat-field-on-sunset?token=" alt="nature" height="50%" width="100%" height="">
         </div>
         <br>
-        <h2>The Dream City - Pune</h2><br>
+        <h2 style="align-items: center;">The Dream City - Pune</h2><br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam nobis quas dolorem, quisquam delectus ex repellat ratione tempora dolorum cupiditate voluptate iste consequuntur recusandae hic laudantium consequatur beatae nisi facere. Error rerum labore tempora enim sint nihil quam harum, perspiciatis suscipit laudantium voluptatibus beatae velit repudiandae blanditiis deserunt sunt ducimus saepe, corporis quae debitis cum. Unde eaque esse voluptatem cumque eveniet placeat aliquid veniam culpa repellat quod quae quasi doloribus animi cupiditate, excepturi id commodi optio perferendis neque iste ratione. Suscipit ad, aut explicabo modi consequatur, necessitatibus at vero aliquam earum facere id unde fuga delectus non perferendis alias.</p>
     </section><br>
 
@@ -36,23 +36,29 @@
 
     <section id="attr">
         <h2>Attractions</h2>
-            <h3>Main Attractions</h3>
-                <ol>
-                    <li>Atlantis Tower</li>
-                    <li>Deep Sea Museum</li>
-                    <li>The Oceanic Bridge</li>
-                </ol>
-            <h3>Local Favourites</h3>
-                <ul type="disk">
-                    <li>Merman's Street</li>
-                    <li>Neptune's Diner</li>
-                    <li>Atlantica Beaches</li>
-                    <ul type="circle">
-                        <li>North Beach</li>
-                        <li>Reef Bay</li>
-                        <li>Mermaid Cove</li>
+        <div class="ma">
+            <div class="main">
+                <h3>Main Attractions</h3>
+                    <ol>
+                        <li>Atlantis Tower</li>
+                        <li>Deep Sea Museum</li>
+                        <li>The Oceanic Bridge</li>
+                    </ol>
+            </div>
+            <div class="main2">
+                <h3>Local Favourites</h3>
+                    <ul type="disk">
+                        <li>Merman's Street</li>
+                        <li>Neptune's Diner</li>
+                        <li>Atlantica Beaches</li>
+                        <ul type="circle">
+                            <li>North Beach</li>
+                            <li>Reef Bay</li>
+                            <li>Mermaid Cove</li>
+                        </ul>
                     </ul>
-                </ul>
+            </div>
+        </div>
     </section>
 
     <hr>
@@ -94,32 +100,32 @@
         <form>
             <!--Name-->
             <label for="full_name">Name: </label>
-            <input type="text" id="full_name" placeholder="Full Name" required> <br>
+            <input type="text" id="full_name" placeholder="Full Name" style="width: 400px;" required> <br><br>
 
             <!--Email-->
             <label for="email">Email: </label>
-            <input type="email" id="email" placeholder="xvz@gmail.com" required> <br>
+            <input type="email" id="email" placeholder="xvz@gmail.com" style="width: 400px;" required> <br><br>
 
             <!--Age-->
             <label for="age">Age: </label>
-            <input type="number" id="age" max="100" min="10" style="width: 70px;" placeholder="10-100" required> <br>
+            <input type="number" id="age" max="100" min="10" style="width: 70px;" placeholder="10-100" required> <br><br>
 
             <!--Favourite Attractions-->
             <label for="location">Favourite Attractions: </label>
-            <select id="location" required>
+            <select id="location" style="width: 305px; height: 23px;" required>
                 <option value=" " selected>Please select</option>
                 <option value="Atlantis Tower">Atlantis Tower</option>
                 <option value="Merman's Street">Merman's Street</option>
                 <option value="The Oceanic Bridge">The Oceanic Bridge</option>
-            </select> <br>
+            </select> <br><br>
 
             <!--Comments-->
             <label for="comment">Comments: </label>
-            <textarea id="comment" cols="25" rows="2" placeholder="Enter your comments..."></textarea><br>
+            <textarea id="comment" cols="52" rows="2" placeholder="Enter your comments..."></textarea><br><br>
 
             <!--Newsletter-->
-            <label for="news">Newsletter: </label>
-            <input type="checkbox" id="news"> Subscribe to our Newsletter <br>
+            <label for="news">Newsletter: </label><br>
+            <input type="checkbox" id="news"> Subscribe to our Newsletter <br><br>
 
             <!--Submit-->
             <button type="submit">Submit</button>
@@ -130,25 +136,31 @@
 
     <section id="say">
         <h2>What Citizens Say</h2>
-        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, unde!" - Alex</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quidem!" - Isabelle</p>
+        <p><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, unde!" - Alex</i></p>
+        <p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quidem!" - Isabelle</i></p>
     </section>
 
     <hr>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>
-            <i>Atlantica Tourism Office</i><br>
-            <i>100 Ocean Drive, Atlantica</i><br>
-            <i>Email: <a href="malito:info@atlantica.com">info@atlantica.com</a></i><br>
-            <i>Phone: 123-456-7890</i>
-        </p>
-    </section>
+        <div class="bg-img">
+            <div class="bg-text">
+                <h2>Contact Us</h2>
+                <div>
+                    <p>
+                        <i>Atlantica Tourism Office</i><br>
+                        <i>100 Ocean Drive, Atlantica</i><br>
+                        <i>Email: <a href="malito:info@atlantica.com">info@atlantica.com</a></i><br>
+                        <i>Phone: 123-456-7890</i>
+                    </p>    
+                </div>
+            </div>
+        </div>
+        </section>
 
     <hr>
 
-    <footer>
+    <footer style="background-color: darkgray;">
         @2023 Atlantica Tourism. Drive Into Dreams!
     </footer>
 
